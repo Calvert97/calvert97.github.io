@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Calvert Lee</title>
+    <title>Posts on Calvert‘s Website</title>
     <link>http://calvert97.github.io/posts/</link>
-    <description>Recent content in Posts on Calvert Lee</description>
+    <description>Recent content in Posts on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
     <lastBuildDate>Thu, 28 May 2020 21:05:20 +0800</lastBuildDate>
@@ -17,7 +17,9 @@
       <pubDate>Thu, 28 May 2020 21:05:20 +0800</pubDate>
       
       <guid>http://calvert97.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <description>  love     Sydney Harbour
+    Sydney Harbour
+  </description>
     </item>
     
   </channel>
