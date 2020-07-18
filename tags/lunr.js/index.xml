@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lunr.js on Calvert‘s Website</title>
-    <link>http://calvert97.github.io/tags/lunr.js/</link>
+    <link>https://Calvert97.github.io/tags/lunr.js/</link>
     <description>Recent content in lunr.js on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
     <lastBuildDate>Thu, 05 Jul 2018 20:30:00 +0600</lastBuildDate>
     
-	<atom:link href="http://calvert97.github.io/tags/lunr.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Calvert97.github.io/tags/lunr.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Search: Lunr.js</title>
-      <link>http://calvert97.github.io/docs/search-lunr-js/</link>
+      <link>https://Calvert97.github.io/docs/search-lunr-js/</link>
       <pubDate>Thu, 05 Jul 2018 20:30:00 +0600</pubDate>
       
-      <guid>http://calvert97.github.io/docs/search-lunr-js/</guid>
+      <guid>https://Calvert97.github.io/docs/search-lunr-js/</guid>
       <description>Configure Lunr.js Search Client Select Lunr.js as the search client in your config.toml file:
 [params.search] client = &amp;#34;lunr&amp;#34; Generate Search Index for Lunr.js Lunr.js will need a search index for searching across your site. So, you&amp;rsquo;ll need to generate that search index for Lunr.js before you deploy your site.
 Minimo comes with a script for generating the search index for Lunr.js: /scripts/generate-search-index-lunr.js.

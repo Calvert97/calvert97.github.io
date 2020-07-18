@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Calvert Lee on Calvert‘s Website</title>
-    <link>http://calvert97.github.io/calvert-lee/</link>
+    <link>https://Calvert97.github.io/calvert-lee/</link>
     <description>Recent content in Calvert Lee on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
     
-	<atom:link href="http://calvert97.github.io/calvert-lee/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Calvert97.github.io/calvert-lee/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
