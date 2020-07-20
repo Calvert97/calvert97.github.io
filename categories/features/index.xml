@@ -213,8 +213,8 @@ You can use these options in you content&amp;rsquo;s front-matter:
 [taxonomies] author = &amp;#34;authors&amp;#34; Minimo treats Authors as a Hugo Taxonomy.
 Author&amp;rsquo;s Profile For adding an author to your site:
  Create data/authors folder in your site&amp;rsquo;s root directory Create a file with the filename format: &amp;lt;username&amp;gt;.toml  Now, add information about the author using the structure below:
-/data/authors/muniftanjim.toml
-id = &amp;#34;muniftanjim&amp;#34; [email] username = &amp;#34;muniftanjim&amp;#34; host = &amp;#34;gmail.</description>
+/data/authors/Calvert.toml
+id = &amp;#34;CalvertLee&amp;#34; [email] username = &amp;#34;lixin9703&amp;#34; host = &amp;#34;gmail.</description>
     </item>
     
   </channel>
