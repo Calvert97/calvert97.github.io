@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Calvert‘s Website</title>
-    <link>https://Calvert97.github.io/</link>
-    <description>Recent content in Home on Calvert‘s Website</description>
+    <title>Help Files on Calvert‘s Website</title>
+    <link>https://Calvert97.github.io/tags/help-files/</link>
+    <description>Recent content in Help Files on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
-    <lastBuildDate>Thu, 28 May 2020 21:05:20 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Aug 2018 12:30:00 +0600</lastBuildDate>
     
-	<atom:link href="https://Calvert97.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Calvert97.github.io/tags/help-files/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Typography</title>
-      <link>https://Calvert97.github.io/typography/</link>
-      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
-      
-      <guid>https://Calvert97.github.io/typography/</guid>
-      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://Calvert97.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Calvert97.github.io/about/</guid>
-      <description>Mínimo is a Spanish word that roughly translate to Minimal.
-Minimo is a minimalist theme for Hugo.
-Minimo keeps the focus on your content and lets it shine!</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://Calvert97.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 28 May 2020 21:05:20 +0800</pubDate>
-      
-      <guid>https://Calvert97.github.io/posts/my-first-post/</guid>
-      <description>  love     Sydney Harbour
-    Sydney Harbour
-  </description>
-    </item>
     
     <item>
       <title>KaTeX Support</title>
@@ -282,15 +249,6 @@ After you&amp;rsquo;re done with that, it&amp;rsquo;s time for installing Minimo
 Installing Minimo There are two different ways you can install Minimo:
  As clone As submodule  The second method is recommended.
 Install Minimo as clone With this method, you will simply clone it. And a copy of Minimo&amp;rsquo;s repository will be stored with the rest of you site.</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://Calvert97.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Calvert97.github.io/search/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -205,10 +205,10 @@ You can use these options in you content&amp;rsquo;s front-matter:
     
     <item>
       <title>Authors Setup Guide</title>
-      <link>https://Calvert97.github.io/docs/authors/</link>
+      <link>https://Calvert97.github.io/docs/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/</link>
       <pubDate>Tue, 26 Sep 2017 06:00:00 +0600</pubDate>
       
-      <guid>https://Calvert97.github.io/docs/authors/</guid>
+      <guid>https://Calvert97.github.io/docs/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/</guid>
       <description>Minimo supports multiple authors for your site. Just make sure you have the following configuration in your site&amp;rsquo;s config.toml:
 [taxonomies] author = &amp;#34;authors&amp;#34; Minimo treats Authors as a Hugo Taxonomy.
 Author&amp;rsquo;s Profile For adding an author to your site:
