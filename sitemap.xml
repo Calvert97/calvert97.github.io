@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://Calvert97.github.io/typography/</loc>
-    <lastmod>2017-09-28T08:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://Calvert97.github.io/about/</loc>
   </url>
   
@@ -112,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://Calvert97.github.io/page/</loc>
+    <loc>https://Calvert97.github.io/docs/typography/</loc>
     <lastmod>2017-09-28T08:00:00+06:00</lastmod>
   </url>
   
@@ -166,6 +161,10 @@
   
   <url>
     <loc>https://Calvert97.github.io/tags/og/</loc>
+  </url>
+  
+  <url>
+    <loc>https://Calvert97.github.io/page/</loc>
   </url>
   
   <url>

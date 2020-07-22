@@ -12,17 +12,6 @@
     
     
     <item>
-      <title>Typography</title>
-      <link>https://Calvert97.github.io/typography/</link>
-      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
-      
-      <guid>https://Calvert97.github.io/typography/</guid>
-      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://Calvert97.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -185,6 +174,17 @@ convo: Parameters  sep [String] (optional): seperator between person and text (d
 You can directly provide the image url:
 --- cover: /images/eden-farm-children-s-village.jpg ---  cover [String]: path/url of the cover image  Or you can provide additional information:
 --- cover: image: /images/eden-farm-children-s-village.jpg alternate: Picture of a yellow wall with a blue window in the upper-left corner caption: Eden Farm Children&amp;#39;s Village by Gareth Harper on Unsplash style: full ---  cover [Map]:  image [String]: path/url of the cover image alternate [String]: alternate text for the image caption [String]: caption for the cover image style [String]: full / wide / normal    </description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://Calvert97.github.io/docs/typography/</link>
+      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
+      
+      <guid>https://Calvert97.github.io/docs/typography/</guid>
+      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
     </item>
     
     <item>
