@@ -2,19 +2,27 @@
 <html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='First of all, if you really want emojis, set the enableEmoji setting to true in your config.toml file:
-enableEmoji = true This will enable Hugo to find Emoji Shorthands in your content files and render them as Unicode Emoji Characters.
-For example:
-No, it&rsquo;ll probably not be that colorful! Unless your device&rsquo;s operating system natively supports colorful emojis, you will see a black &amp; white one instead. 🔥
-✏️ For getting that colorful look, you will have to add this to your content&rsquo;s frontmatter:'>
+<meta name='description' content='首先，如果你想用 emojis 表情, 需要在config.toml 文件中，将 enableEmoji 设置为 true ：
+enableEmoji = true 这将使Hugo能够在您的内容文件中找到Emoji缩略词，并将它们呈现为Unicode Emoji Characters。
+例如:🔥
+它可能不会那么丰富多彩!除非你的设备的操作系统本身就支持彩色的表情符号，否则你会看到一个黑白的。🔥
+✏️ 为了获得丰富多彩的外观，必须添加以下内容:
+--- emoji: true --- 你在哪里可以找到这些Emoji呢 ❓ Go take a look at🎉 :
+Emoji Cheat Sheet 内容较少，但兼容性较高，且均为代码的形式。
+Emoji Emoji的官方网站。
+符号大全 方便复制Emoji的中文网站。'>
 <meta name='theme-color' content='#ffcd00'>
 
 <meta property='og:title' content='Emoji Support • Calvert Lee'>
-<meta property='og:description' content='First of all, if you really want emojis, set the enableEmoji setting to true in your config.toml file:
-enableEmoji = true This will enable Hugo to find Emoji Shorthands in your content files and render them as Unicode Emoji Characters.
-For example:
-No, it&rsquo;ll probably not be that colorful! Unless your device&rsquo;s operating system natively supports colorful emojis, you will see a black &amp; white one instead. 🔥
-✏️ For getting that colorful look, you will have to add this to your content&rsquo;s frontmatter:'>
+<meta property='og:description' content='首先，如果你想用 emojis 表情, 需要在config.toml 文件中，将 enableEmoji 设置为 true ：
+enableEmoji = true 这将使Hugo能够在您的内容文件中找到Emoji缩略词，并将它们呈现为Unicode Emoji Characters。
+例如:🔥
+它可能不会那么丰富多彩!除非你的设备的操作系统本身就支持彩色的表情符号，否则你会看到一个黑白的。🔥
+✏️ 为了获得丰富多彩的外观，必须添加以下内容:
+--- emoji: true --- 你在哪里可以找到这些Emoji呢 ❓ Go take a look at🎉 :
+Emoji Cheat Sheet 内容较少，但兼容性较高，且均为代码的形式。
+Emoji Emoji的官方网站。
+符号大全 方便复制Emoji的中文网站。'>
 <meta property='og:url' content='https://Calvert97.github.io/docs/emoji-support/'>
 <meta property='og:site_name' content='Calvert‘s Website'>
 <meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/76f9503244280eecc9c9645be691e8a7?s=256'><meta property='article:author' content='https://facebook.com/Calvert97'><meta property='article:section' content='docs'><meta property='article:tag' content='Help Files'><meta property='article:published_time' content='2018-02-27T21:00:00&#43;06:00'/><meta property='article:modified_time' content='2018-02-27T21:00:00&#43;06:00'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@Calvert_Zzz'>
@@ -107,6 +115,10 @@ No, it&rsquo;ll probably not be that colorful! Unless your device&rsquo;s operat
       </li><li class='item'>
         <a href='/docs/'>Docs</a>
       </li><li class='item'>
+        <a href='/github/'>GitHub</a>
+      </li><li class='item'>
+        <a href='/album/'>Album</a>
+      </li><li class='item'>
         <a href='/about/'>About</a>
       </li><li class='item'>
         <a href='https://github.com/Calvert97/calvert97.github.io'>Repo</a>
@@ -182,18 +194,19 @@ One min read
   
 
   <div class='container entry-content'>
-  <p>First of all, if you really want emojis, set the <code>enableEmoji</code> setting to <code>true</code> in your <code>config.toml</code> file:</p>
+  <p>首先，如果你想用 <code>emojis</code> 表情, 需要在<code>config.toml</code> 文件中，将 <code>enableEmoji</code> 设置为 <code>true</code> ：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">enableEmoji</span> = <span style="color:#66d9ef">true</span>
-</code></pre></div><p>This will enable Hugo to find Emoji Shorthands in your content files and render them as Unicode Emoji Characters.</p>
-<p>For example:</p>
-<!-- raw HTML omitted -->
-<p>No, it&rsquo;ll probably not be that colorful! Unless your device&rsquo;s operating system natively supports colorful emojis, you will see a black &amp; white one instead. 🔥</p>
-<p>✏️ For getting that colorful look, you will have to add this to your content&rsquo;s frontmatter:</p>
+</code></pre></div><p>这将使<code>Hugo</code>能够在您的内容文件中找到<code>Emoji</code>缩略词，并将它们呈现为Unicode Emoji Characters。</p>
+<p>例如:🔥</p>
+<p>它可能不会那么丰富多彩!除非你的设备的操作系统本身就支持彩色的表情符号，否则你会看到一个黑白的。🔥</p>
+<p>✏️ 为了获得丰富多彩的外观，必须添加以下内容:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">---
 <span style="color:#66d9ef">emoji</span>: <span style="color:#66d9ef">true</span>
 ---
-</code></pre></div><p>And where can you find these Emoji Shorthands ❓</p>
-<p>🎉 Go take a look at: <strong><a href="http://www.emoji-cheat-sheet.com/">Emoji Cheat Sheet</a></strong></p>
+</code></pre></div><p>你在哪里可以找到这些<code>Emoji</code>呢 ❓ Go take a look at🎉 :</p>
+<p><strong><a href="http://www.emoji-cheat-sheet.com/">Emoji Cheat Sheet</a></strong> 内容较少，但兼容性较高，且均为代码的形式。</p>
+<p><strong><a href="https://emojipedia.org/">Emoji</a></strong> <code>Emoji</code>的官方网站。</p>
+<p><strong><a href="http://www.fhdq.net/emoji.html">符号大全</a></strong> 方便复制<code>Emoji</code>的中文网站。</p>
 
 </div>
 
@@ -323,6 +336,16 @@ One min read
           <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true' xmlns="http://www.w3.org/2000/svg" version="1.1">
   
   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://instagram.com/calvert_zzz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Instagram account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true' xmlns="http://www.w3.org/2000/svg" version="1.1">
+  
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+  <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
   
 </svg>
 </a>

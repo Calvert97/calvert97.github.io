@@ -87,11 +87,15 @@ Enable/Disable Comments Globally For enabling or disabling comments globally, ch
       <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
       
       <guid>https://Calvert97.github.io/docs/emoji-support/</guid>
-      <description>First of all, if you really want emojis, set the enableEmoji setting to true in your config.toml file:
-enableEmoji = true This will enable Hugo to find Emoji Shorthands in your content files and render them as Unicode Emoji Characters.
-For example:
-No, it&amp;rsquo;ll probably not be that colorful! Unless your device&amp;rsquo;s operating system natively supports colorful emojis, you will see a black &amp;amp; white one instead. 🔥
-✏️ For getting that colorful look, you will have to add this to your content&amp;rsquo;s frontmatter:</description>
+      <description>首先，如果你想用 emojis 表情, 需要在config.toml 文件中，将 enableEmoji 设置为 true ：
+enableEmoji = true 这将使Hugo能够在您的内容文件中找到Emoji缩略词，并将它们呈现为Unicode Emoji Characters。
+例如:🔥
+它可能不会那么丰富多彩!除非你的设备的操作系统本身就支持彩色的表情符号，否则你会看到一个黑白的。🔥
+✏️ 为了获得丰富多彩的外观，必须添加以下内容:
+--- emoji: true --- 你在哪里可以找到这些Emoji呢 ❓ Go take a look at🎉 :
+Emoji Cheat Sheet 内容较少，但兼容性较高，且均为代码的形式。
+Emoji Emoji的官方网站。
+符号大全 方便复制Emoji的中文网站。</description>
     </item>
     
     <item>
