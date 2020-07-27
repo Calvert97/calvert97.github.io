@@ -399,98 +399,26 @@ Enable/Disable Comments Globally For enabling or disabling comments globally, ch
 
 <section id='comments' class='comments'>
   <div class='container sep-before'>
-    <div class='comments-area'><div id='submission-success' class='comment-submission-feedback'>
-  <h4>Thank You!</h4>
-  <span>Your comment has been submitted. It will appear on this page shortly!</span>
-  <a href='#comments' class='button'>OK</a>
-</div>
-
-<div id='submission-failure' class='comment-submission-feedback'>
-  <h4>Yikes, Sorry!</h4>
-  <span>Error occured. Couldn&#39;t submit your comment. Please try again. Thank You!</span>
-  <a href='#comments' class='button'>OK</a>
-</div>
-
-
-<h3 class='comments-title'>
-  2 comments on Comments Support
-</h3>
-
-<ol class='comment-list'><li id='comment-85b5b000-33c9-11e8-b7f2-af13eee21e7d' class='comment'>
-  <article class='comment-body'>
-    <header class='comment-header'>
-      <div class='comment-author'>
-        <img alt='Munif Tanjim&#39;s avatar' src='https://www.gravatar.com/avatar/058944a54775b387da964cb3cc3670ff?s=64' class='avatar'/>
-        <b class='fn'><a href='https://muniftanjim.com' rel='external nofollow' class='url'>Munif Tanjim</a></b>
-        <span class='says'>says: </span>
-      </div>
-      <div class='comment-meta'>
-        <a href='#comment-85b5b000-33c9-11e8-b7f2-af13eee21e7d'><time datetime='2018-03-30T05:00:00&#43;08:00'>05:00, Mar 30, 2018</time>
-        </a>
-      </div>
-    </header>
-    <div class='comment-content'>
-      Comment&rsquo;s on Minimo is now powered by <strong>Staticman</strong>&lsquo;s superpower!
-    </div>
-    <footer class='reply'><a rel='nofollow' class='button comment-reply-link' href='#respond' onclick='return moveRespondBlock(&#34;85b5b000-33c9-11e8-b7f2-af13eee21e7d&#34;)' aria-label='Reply to Munif Tanjim'>
-        Reply
-      </a></footer>
-  </article><ol class='children'><li id='comment-c7062840-33ca-11e8-b7f2-af13eee21e7d' class='comment'>
-  <article class='comment-body'>
-    <header class='comment-header'>
-      <div class='comment-author'>
-        <img alt='Munif Tanjim&#39;s avatar' src='https://www.gravatar.com/avatar/058944a54775b387da964cb3cc3670ff?s=64' class='avatar'/>
-        <b class='fn'>Munif Tanjim</b>
-        <span class='says'>says: </span>
-      </div>
-      <div class='comment-meta'>
-        <a href='#comment-c7062840-33ca-11e8-b7f2-af13eee21e7d'><time datetime='2018-03-30T05:30:00&#43;08:00'>05:30, Mar 30, 2018</time>
-        </a>
-      </div>
-    </header>
-    <div class='comment-content'>
-      <em>&ldquo;I suppose everyone feels that he&rsquo;s the hero in his own story, but there are no heroes, no villains, just people doing the best they can.&quot;</em><br>
-&mdash; Harold Finch
-    </div>
-    <footer class='reply'></footer>
-  </article></li>
-</ol>
-</li>
-</ol>
-
-<div id='respond' class='comment-respond'>
-  <h4 class='comment-reply-title'>Leave a comment<small>
-      <a rel='nofollow' id='cancel-comment-reply-link' href='#respond' class='button' style='display:none' aria-label='Cancel comment'>Cancel</a>
-    </small>
-  </h4>
-  <form action='https://api.staticman.net/v2/entry/MunifTanjim/minimo/master/comments' method='post' id='comment-form' class='comment-form'>
-    <input type='hidden' name='options[postId]' value='33deba780bf80cacf2627abf7a22fec7'>
-    <input type='hidden' name='options[redirect]' value='https://Calvert97.github.io/docs/comments-support/#submission-success'>
-    <input type='hidden' name='options[redirectError]' value='https://Calvert97.github.io/docs/comments-support/#submission-failure'>
-
-    <input type='address' name='fields[honeypot]' style='display:none'>
-    <input type='hidden' name='fields[permalink]' value='/docs/comments-support/'>
-    <input type='hidden' name='fields[parent_id]' value=''><div>
-      <label for='comment'>Comment*</label>
-      <textarea id='comment' name='fields[content]' required rows='3'></textarea>
-    </div>
-    <div>
-      <label for='name'>Name*</label>
-      <input id='name' name='fields[author]' type='text' required>
-    </div>
-    <div>
-      <label for='email'>Email*</label>
-      <input id='email' name='fields[email]' type='email' required>
-    </div>
-    <div>
-      <label for='url'>Website</label>
-      <input id='url' name='fields[site]' type='url'>
-    </div><div>
-      <button type='submit' id="submitComment">Comment!</button>
-    </div>
-  </form>
-</div>
-
+    <div class='comments-area'><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "calvertlee" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
   </div>
 </section>
@@ -591,6 +519,8 @@ Enable/Disable Comments Globally For enabling or disabling comments globally, ch
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
 <script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
+
+
 
 </body>
 
