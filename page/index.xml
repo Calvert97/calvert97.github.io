@@ -6,7 +6,7 @@
     <description>Recent content in Pages on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
-    <lastBuildDate>Fri, 24 Jul 2020 08:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 08:00:00 +0600</lastBuildDate>
     
 	<atom:link href="https://Calvert97.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -39,6 +39,15 @@
  🔭 I’m currently working on [Quadrotor Trajectory Tracking with FO-SMC] 🌱 I’m currently learning CSS3 &amp;amp; HTML5 👯 I’m looking to collaborate on [Control Theory of Quadrotor] 💬 Ask me about anything here  Next, please accept my charm unconditionally 😎
   Hahaha~Have you been moved by my appearance 😌
 I am a graduate student in Inner Mongolia University.</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://Calvert97.github.io/contact/</link>
+      <pubDate>Sat, 01 Aug 2020 08:00:00 +0600</pubDate>
+      
+      <guid>https://Calvert97.github.io/contact/</guid>
+      <description>test </description>
     </item>
     
     <item>
