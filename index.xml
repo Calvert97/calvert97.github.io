@@ -184,6 +184,33 @@ Widget: About  about [Map]:  title [String]: Title</description>
     </item>
     
     <item>
+      <title>Widgets</title>
+      <link>https://calvertlee.top/html&#43;css/widgets/</link>
+      <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/html&#43;css/widgets/</guid>
+      <description>测试</description>
+    </item>
+    
+    <item>
+      <title>Widgets</title>
+      <link>https://calvertlee.top/javascript/widgets/</link>
+      <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/javascript/widgets/</guid>
+      <description>测试</description>
+    </item>
+    
+    <item>
+      <title>Widgets</title>
+      <link>https://calvertlee.top/matlab/matlab/</link>
+      <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/matlab/matlab/</guid>
+      <description>测试</description>
+    </item>
+    
+    <item>
       <title>Shortcodes</title>
       <link>https://calvertlee.top/docs/shortcodes/</link>
       <pubDate>Thu, 05 Oct 2017 20:00:00 +0600</pubDate>
@@ -214,6 +241,39 @@ You can directly provide the image url:
       <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
       
       <guid>https://calvertlee.top/docs/typography/</guid>
+      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://calvertlee.top/html&#43;css/typography/</link>
+      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/html&#43;css/typography/</guid>
+      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://calvertlee.top/javascript/typography/</link>
+      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/javascript/typography/</guid>
+      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://calvertlee.top/matlab/typography/</link>
+      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/matlab/typography/</guid>
       <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Heading 4  First item Second item   Nested unordered item  Third item Nested ordered item 1 Nested ordered item 2  Heading 5 Where are the quotes!</description>
@@ -301,6 +361,48 @@ baseURL = &amp;#34;http://www.calvertlee.top&amp;#34; title = &amp;#34;Calvert�
       <description>Updating Minimo Update Minimo clone Just replace the themes/minimo folder with the latest version of Minimo clone, i.e. delete the old folder and clone again:
 rm -rf themes/minimo git clone --depth 1 https://github.com/MunifTanjim/minimo themes/minimo Then, commit the changes:
 git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; Update Minimo submodule cd themes/minimo git checkout master git fetch &amp;amp;&amp;amp; git pull cd ../.. git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; To Do After Updating Minimo After updating Minimo, always check that your site&amp;rsquo;s config.</description>
+    </item>
+    
+    <item>
+      <title>Updating Guide</title>
+      <link>https://calvertlee.top/html&#43;css/updating/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/html&#43;css/updating/</guid>
+      <description>Updating Minimo Update Minimo clone Just replace the themes/minimo folder with the latest version of Minimo clone, i.e. delete the old folder and clone again:
+rm -rf themes/minimo git clone --depth 1 https://github.com/MunifTanjim/minimo themes/minimo Then, commit the changes:
+git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; Update Minimo submodule cd themes/minimo git checkout master git fetch &amp;amp;&amp;amp; git pull cd ../.. git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; To Do After Updating Minimo After updating Minimo, always check that your site&amp;rsquo;s config.</description>
+    </item>
+    
+    <item>
+      <title>Updating Guide</title>
+      <link>https://calvertlee.top/javascript/updating/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/javascript/updating/</guid>
+      <description>Updating Minimo Update Minimo clone Just replace the themes/minimo folder with the latest version of Minimo clone, i.e. delete the old folder and clone again:
+rm -rf themes/minimo git clone --depth 1 https://github.com/MunifTanjim/minimo themes/minimo Then, commit the changes:
+git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; Update Minimo submodule cd themes/minimo git checkout master git fetch &amp;amp;&amp;amp; git pull cd ../.. git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; To Do After Updating Minimo After updating Minimo, always check that your site&amp;rsquo;s config.</description>
+    </item>
+    
+    <item>
+      <title>Updating Guide</title>
+      <link>https://calvertlee.top/matlab/updating/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/matlab/updating/</guid>
+      <description>Updating Minimo Update Minimo clone Just replace the themes/minimo folder with the latest version of Minimo clone, i.e. delete the old folder and clone again:
+rm -rf themes/minimo git clone --depth 1 https://github.com/MunifTanjim/minimo themes/minimo Then, commit the changes:
+git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; Update Minimo submodule cd themes/minimo git checkout master git fetch &amp;amp;&amp;amp; git pull cd ../.. git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; To Do After Updating Minimo After updating Minimo, always check that your site&amp;rsquo;s config.</description>
+    </item>
+    
+    <item>
+      <title>希腊字母与特殊字符</title>
+      <link>https://calvertlee.top/latex/latex/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
+      
+      <guid>https://calvertlee.top/latex/latex/</guid>
+      <description>   Name Slug     Header header   Homepage homepage   Sidebar sidebar   Footer footer    </description>
     </item>
     
     <item>
