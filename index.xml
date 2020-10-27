@@ -198,7 +198,7 @@ Widget: About  about [Map]:  title [String]: Title</description>
       <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
       
       <guid>https://calvertlee.top/javascript/widgets/</guid>
-      <description>测试</description>
+      <description>   一个普通标题 一个普通标题 一个普通标题     短文本 中等文本 稍微长一点的文本   稍微长一点的文本 短文本 中等文本       左对齐标题 右对齐标题 居中对齐标题     短文本 中等文本 稍微长一点的文本   稍微长一点的文本 短文本 中等文本    </description>
     </item>
     
     <item>
@@ -402,7 +402,7 @@ git add themes/minimo git commit -m &amp;#34;update [theme]: minimo&amp;#34; Upd
       <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
       
       <guid>https://calvertlee.top/latex/latex/</guid>
-      <description>   Name Slug     Header header   Homepage homepage   Sidebar sidebar   Footer footer    </description>
+      <description>   常用希腊字母 Latex形式 常用希腊字母 Latex形式     \[\alpha \] \alpha \[\eta \] \eta   \[\beta \] \beta \[\xi \] \xi   \[\gamma \] \gamma \[\pi \] \pi   \[\delta \] \delta \[\rho \] \rho   \[\epsilon \] \epsilon \[\sigma \] \sigma   \[\zeta \] \zeta \[\tau \] \tau   \[\theta \] \theta \[\upsilon \] \upsilon   \[\iota \] \iota \[\phi \] \phi   \[\kappa \] \kappa \[\chi \] \chi   \[\lambda \] \lambda \[\psi \] \psi   \[\mu \] \mu \[\omega \] \omega    </description>
     </item>
     
     <item>
