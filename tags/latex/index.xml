@@ -2,21 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latex on Calvert‘s Website</title>
-    <link>https://calvertlee.top/tags/latex/</link>
+    <link>http://calvertlee.top/tags/latex/</link>
     <description>Recent content in Latex on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
-    <lastBuildDate>Mon, 25 Sep 2017 06:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jan 2021 06:00:00 +0600</lastBuildDate>
     
-	<atom:link href="https://calvertlee.top/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://calvertlee.top/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>参考文献双栏对齐</title>
+      <link>http://calvertlee.top/latex/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%8F%8C%E6%A0%8F%E5%AF%B9%E9%BD%90/</link>
+      <pubDate>Thu, 07 Jan 2021 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/latex/%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%8F%8C%E6%A0%8F%E5%AF%B9%E9%BD%90/</guid>
+      <description>在开头引用 balance:
+\usepackage{balance} 在参考文献前，加上：
+\balance 原来样式：
+balance实现：</description>
+    </item>
+    
+    <item>
       <title>希腊字母与特殊字符</title>
-      <link>https://calvertlee.top/latex/latex/</link>
+      <link>http://calvertlee.top/latex/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%E4%B8%8E%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</link>
       <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
       
-      <guid>https://calvertlee.top/latex/latex/</guid>
+      <guid>http://calvertlee.top/latex/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%E4%B8%8E%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</guid>
       <description>   常用希腊字母 Latex形式 常用希腊字母 Latex形式     \[\alpha \] \alpha \[\eta \] \eta   \[\beta \] \beta \[\xi \] \xi   \[\gamma \] \gamma \[\pi \] \pi   \[\delta \] \delta \[\rho \] \rho   \[\epsilon \] \epsilon \[\sigma \] \sigma   \[\zeta \] \zeta \[\tau \] \tau   \[\theta \] \theta \[\upsilon \] \upsilon   \[\iota \] \iota \[\phi \] \phi   \[\kappa \] \kappa \[\chi \] \chi   \[\lambda \] \lambda \[\psi \] \psi   \[\mu \] \mu \[\omega \] \omega    </description>
     </item>
     
