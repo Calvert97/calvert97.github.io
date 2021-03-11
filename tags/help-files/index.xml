@@ -6,15 +6,40 @@
     <description>Recent content in Help Files on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
-    <lastBuildDate>Tue, 27 Feb 2018 21:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 06:00:00 +0600</lastBuildDate>
     
 	<atom:link href="http://calvertlee.top/tags/help-files/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Shortcodes</title>
+      <link>http://calvertlee.top/docs/shortcodes/</link>
+      <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/shortcodes/</guid>
+      <description>Minimo comes with several shortcodes built-in.
+ Shortcode: center Center align you content.
+center: Parameters  Markdown content between opening and closing tags.  center: Usage Example {{&amp;lt; center &amp;gt;}} _Center Aligned Text_ {{&amp;lt; /center &amp;gt;}} Output:
+Center Aligned Text Shortcode: convo Renders conversation blocks.
+convo: Parameters  sep [String] (optional): seperator between person and text (default: &amp;ldquo;:&amp;rdquo;)  convo: Inner Syntax person :: text You can remove the person part, if you want.</description>
+    </item>
+    
+    <item>
+      <title>Widgets</title>
+      <link>http://calvertlee.top/docs/widgets/</link>
+      <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/widgets/</guid>
+      <description>Minimo supports Widgets that you can place on specific Widget Areas.
+Available Widgets Minimo has the following built-in Widgets:
+   Name Slug     About | about Breadcrumbs | breadcrumbs Recent Posts | recent_posts Search | search Sidebar Menu | sidebar_menu Social Menu | social_menu Taxonomy Cloud | taxonomy_cloud  Widget Configuration Options Here are the configuration options available for the Widgets:
+Widget: About  about [Map]:  title [String]: Title</description>
+    </item>
+    
+    <item>
       <title>Emoji Support</title>
       <link>http://calvertlee.top/docs/emoji-support/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      <pubDate>Sat, 12 Dec 2020 06:00:00 +0600</pubDate>
       
       <guid>http://calvertlee.top/docs/emoji-support/</guid>
       <description>首先，如果你想用 emojis 表情, 需要在config.toml 文件中，将 enableEmoji 设置为 true ：
@@ -26,31 +51,6 @@ enableEmoji = true 这将使Hugo能够在您的内容文件中找到Emoji缩略�
 Emoji Cheat Sheet 内容较少，但兼容性较高，且均为代码的形式。
 Emoji Emoji的官方网站。
 符号大全 方便复制Emoji的中文网站。</description>
-    </item>
-    
-    <item>
-      <title>Widgets</title>
-      <link>http://calvertlee.top/docs/widgets/</link>
-      <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
-      
-      <guid>http://calvertlee.top/docs/widgets/</guid>
-      <description>Minimo supports Widgets that you can place on specific Widget Areas.
-Available Widgets Minimo has the following built-in Widgets:
-   Name Slug     About | about Breadcrumbs | breadcrumbs Recent Posts | recent_posts Search | search Sidebar Menu | sidebar_menu Social Menu | social_menu Taxonomy Cloud | taxonomy_cloud  Widget Configuration Options Here are the configuration options available for the Widgets:
-Widget: About  about [Map]:  title [String]: Title</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>http://calvertlee.top/docs/shortcodes/</link>
-      <pubDate>Thu, 05 Oct 2017 20:00:00 +0600</pubDate>
-      
-      <guid>http://calvertlee.top/docs/shortcodes/</guid>
-      <description>Minimo comes with several shortcodes built-in.
- Shortcode: center Center align you content.
-center: Parameters  Markdown content between opening and closing tags.  center: Usage Example {{&amp;lt; center &amp;gt;}} _Center Aligned Text_ {{&amp;lt; /center &amp;gt;}} Output:
-Center Aligned Text Shortcode: convo Renders conversation blocks.
-convo: Parameters  sep [String] (optional): seperator between person and text (default: &amp;ldquo;:&amp;rdquo;)  convo: Inner Syntax person :: text You can remove the person part, if you want.</description>
     </item>
     
   </channel>

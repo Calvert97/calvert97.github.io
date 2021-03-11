@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTML&amp;CSS on Calvert‘s Website</title>
-    <link>http://calvertlee.top/html&#43;css/</link>
-    <description>Recent content in HTML&amp;CSS on Calvert‘s Website</description>
+    <title>css&#43;html on Calvert‘s Website</title>
+    <link>http://calvertlee.top/categories/css&#43;html/</link>
+    <description>Recent content in css&#43;html on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
     <lastBuildDate>Wed, 22 Jan 2020 19:03:00 +0000</lastBuildDate>
     
-	<atom:link href="http://calvertlee.top/html+css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://calvertlee.top/categories/css+html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

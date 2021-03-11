@@ -65,9 +65,43 @@ balance实现：</description>
     </item>
     
     <item>
+      <title>Shortcodes</title>
+      <link>http://calvertlee.top/docs/shortcodes/</link>
+      <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/shortcodes/</guid>
+      <description>Minimo comes with several shortcodes built-in.
+ Shortcode: center Center align you content.
+center: Parameters  Markdown content between opening and closing tags.  center: Usage Example {{&amp;lt; center &amp;gt;}} _Center Aligned Text_ {{&amp;lt; /center &amp;gt;}} Output:
+Center Aligned Text Shortcode: convo Renders conversation blocks.
+convo: Parameters  sep [String] (optional): seperator between person and text (default: &amp;ldquo;:&amp;rdquo;)  convo: Inner Syntax person :: text You can remove the person part, if you want.</description>
+    </item>
+    
+    <item>
+      <title>Widgets</title>
+      <link>http://calvertlee.top/docs/widgets/</link>
+      <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/widgets/</guid>
+      <description>Minimo supports Widgets that you can place on specific Widget Areas.
+Available Widgets Minimo has the following built-in Widgets:
+   Name Slug     About | about Breadcrumbs | breadcrumbs Recent Posts | recent_posts Search | search Sidebar Menu | sidebar_menu Social Menu | social_menu Taxonomy Cloud | taxonomy_cloud  Widget Configuration Options Here are the configuration options available for the Widgets:
+Widget: About  about [Map]:  title [String]: Title</description>
+    </item>
+    
+    <item>
+      <title>希腊字母与特殊字符</title>
+      <link>http://calvertlee.top/latex/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%E4%B8%8E%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</link>
+      <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/latex/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%E4%B8%8E%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</guid>
+      <description>   常用希腊字母 Latex形式 常用希腊字母 Latex形式     \[\alpha \] \alpha \[\eta \] \eta   \[\beta \] \beta \[\xi \] \xi   \[\gamma \] \gamma \[\pi \] \pi   \[\delta \] \delta \[\rho \] \rho   \[\epsilon \] \epsilon \[\sigma \] \sigma   \[\zeta \] \zeta \[\tau \] \tau   \[\theta \] \theta \[\upsilon \] \upsilon   \[\iota \] \iota \[\phi \] \phi   \[\kappa \] \kappa \[\chi \] \chi   \[\lambda \] \lambda \[\psi \] \psi   \[\mu \] \mu \[\omega \] \omega    </description>
+    </item>
+    
+    <item>
       <title>Emoji Support</title>
       <link>http://calvertlee.top/docs/emoji-support/</link>
-      <pubDate>Tue, 27 Feb 2018 21:00:00 +0600</pubDate>
+      <pubDate>Sat, 12 Dec 2020 06:00:00 +0600</pubDate>
       
       <guid>http://calvertlee.top/docs/emoji-support/</guid>
       <description>首先，如果你想用 emojis 表情, 需要在config.toml 文件中，将 enableEmoji 设置为 true ：
@@ -82,37 +116,13 @@ Emoji Emoji的官方网站。
     </item>
     
     <item>
-      <title>Widgets</title>
-      <link>http://calvertlee.top/docs/widgets/</link>
-      <pubDate>Wed, 07 Feb 2018 18:30:00 +0600</pubDate>
+      <title>溢出的文字省略号显示</title>
+      <link>http://calvertlee.top/html&#43;css/%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/</link>
+      <pubDate>Wed, 22 Jan 2020 19:03:00 +0000</pubDate>
       
-      <guid>http://calvertlee.top/docs/widgets/</guid>
-      <description>Minimo supports Widgets that you can place on specific Widget Areas.
-Available Widgets Minimo has the following built-in Widgets:
-   Name Slug     About | about Breadcrumbs | breadcrumbs Recent Posts | recent_posts Search | search Sidebar Menu | sidebar_menu Social Menu | social_menu Taxonomy Cloud | taxonomy_cloud  Widget Configuration Options Here are the configuration options available for the Widgets:
-Widget: About  about [Map]:  title [String]: Title</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>http://calvertlee.top/docs/shortcodes/</link>
-      <pubDate>Thu, 05 Oct 2017 20:00:00 +0600</pubDate>
-      
-      <guid>http://calvertlee.top/docs/shortcodes/</guid>
-      <description>Minimo comes with several shortcodes built-in.
- Shortcode: center Center align you content.
-center: Parameters  Markdown content between opening and closing tags.  center: Usage Example {{&amp;lt; center &amp;gt;}} _Center Aligned Text_ {{&amp;lt; /center &amp;gt;}} Output:
-Center Aligned Text Shortcode: convo Renders conversation blocks.
-convo: Parameters  sep [String] (optional): seperator between person and text (default: &amp;ldquo;:&amp;rdquo;)  convo: Inner Syntax person :: text You can remove the person part, if you want.</description>
-    </item>
-    
-    <item>
-      <title>希腊字母与特殊字符</title>
-      <link>http://calvertlee.top/latex/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%E4%B8%8E%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</link>
-      <pubDate>Mon, 25 Sep 2017 06:00:00 +0600</pubDate>
-      
-      <guid>http://calvertlee.top/latex/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%E4%B8%8E%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</guid>
-      <description>   常用希腊字母 Latex形式 常用希腊字母 Latex形式     \[\alpha \] \alpha \[\eta \] \eta   \[\beta \] \beta \[\xi \] \xi   \[\gamma \] \gamma \[\pi \] \pi   \[\delta \] \delta \[\rho \] \rho   \[\epsilon \] \epsilon \[\sigma \] \sigma   \[\zeta \] \zeta \[\tau \] \tau   \[\theta \] \theta \[\upsilon \] \upsilon   \[\iota \] \iota \[\phi \] \phi   \[\kappa \] \kappa \[\chi \] \chi   \[\lambda \] \lambda \[\psi \] \psi   \[\mu \] \mu \[\omega \] \omega    </description>
+      <guid>http://calvertlee.top/html&#43;css/%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/</guid>
+      <description>溢出的文字省略号显示 1. 单行文本溢出显示省略号 /* 1. 先强制一行内显示文本*/ white-space: nowrap; (默认 normal 自动换行) /* 2. 超出的部分隐藏*/ overflow: hidden; /* 3. 文字用省略号替代超出的部分*/ text-overflow: ellipsis; 2. 多行文本溢出显示省略号 多行文本溢出显示省略号，有较大兼容性问题，适合webKit浏览器或移动端
+overflow: hidden; text-overflow: ellipsis; /* 弹性伸缩盒子模型显示*/ display: -webkit-box; /* 限制在一个块级元素显示的文本的行数*/ -webkit-line-clamp: 2; /* 设置或检索伸缩盒对象的子元素的排列方式*/ -webkit-box-orient: vertical; </description>
     </item>
     
     <item>
