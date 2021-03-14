@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
-    <lastBuildDate>Wed, 03 Mar 2021 08:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 14 Mar 2021 08:00:00 +0600</lastBuildDate>
     
 	<atom:link href="http://calvertlee.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Others</title>
+      <link>http://calvertlee.top/categories/others/</link>
+      <pubDate>Sun, 14 Mar 2021 08:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/categories/others/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>matlab</title>
@@ -26,15 +35,6 @@
       <pubDate>Thu, 07 Jan 2021 06:00:00 +0600</pubDate>
       
       <guid>http://calvertlee.top/categories/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Others</title>
-      <link>http://calvertlee.top/categories/others/</link>
-      <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
-      
-      <guid>http://calvertlee.top/categories/others/</guid>
       <description></description>
     </item>
     

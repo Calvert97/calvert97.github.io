@@ -6,7 +6,7 @@
     <description>Recent content in Home on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020 Calvert Lee</copyright>
-    <lastBuildDate>Wed, 03 Mar 2021 08:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 14 Mar 2021 08:00:00 +0600</lastBuildDate>
     
 	<atom:link href="http://calvertlee.top/index.xml" rel="self" type="application/rss+xml" />
     
@@ -39,6 +39,35 @@
  🔭 I’m currently working on [Quadrotor Trajectory Tracking with FO-SMC] 🌱 I’m currently learning JavaScript 👯 I’m looking to collaborate on [Control Theory of Quadrotor] 💬 Ask me about anything here  Next, please accept my charm unconditionally 😎
   Hahaha~Have you been moved by my appearance 😌
 I am a graduate student in Inner Mongolia University.</description>
+    </item>
+    
+    <item>
+      <title>vs2019 转换Qt Creator 详细讲解</title>
+      <link>http://calvertlee.top/docs/vs2019-%E8%BD%AC%E6%8D%A2qt-creator-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3/</link>
+      <pubDate>Sun, 14 Mar 2021 08:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/vs2019-%E8%BD%AC%E6%8D%A2qt-creator-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3/</guid>
+      <description>1. 在新建项目中 输入QT，(前提是你已经装上了 QT VS TOOLS 扩展) 2. 创建完项目，选择相关依赖的库 3. 右键项目创建pro或在扩展里找到创建pro 创建的时候选择默认选项
+此时，生成了两个文件xxx.pro和xxx.pri
+4. 在pro文件里加依赖库QT += core gui sql widgets，如图 5. 注释如图的消息宏：message(&amp;quot;You are running qmake on a generated .pro file. This may not work!&amp;quot;) 6. 在QT Creator里构建运行 至此，教程结束，🎉</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2019配置Qt5开发环境的搭建</title>
+      <link>http://calvertlee.top/docs/visual-studio-2019%E9%85%8D%E7%BD%AEqt5%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</link>
+      <pubDate>Sun, 14 Mar 2021 06:00:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/visual-studio-2019%E9%85%8D%E7%BD%AEqt5%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</guid>
+      <description>1. Qt 5 安装 建议在清华大学开源软件镜像站 Tuna 中下载 ，点击下载 。 下载完成，安装时安装到英文路径下即可。
+2. 在Visual Studio 2019中下载Qt VS Tools插件 打开 Visual Studio 2019，在扩展-&amp;gt;管理扩展-&amp;gt;联机-&amp;gt;搜索 qt ，然后下载（注意：下载速度较慢，需要借助科学上网🎉）。下载完毕后关闭 VS ，此时弹出安装界面，选择安装即可。
+若出现下图的情况，点击End Task。
+安装完毕后点击 Close 。
+3. 环境配置 安装完成后，打开 VS。在扩展-&amp;gt;Qt VS Tools-&amp;gt;Qt Options，点击 ADD ，选择相应的路径，然后就会出现版本的名称，名称也可自行修改。但名称应该起的有意义，比如 msvc2017_64 。配置过程见下方图示：
+4. 创建项目 在 VS 中创建项目 ，搜索 qt ，然后创建 Qt Widgets Application 项目。
+创建成功后可以看见下图
+点击 QuadrotorSim.ui 会打开 Qt 设计师。
+即可创建UI窗口，然后保存。在 VS 里面运行试试看。
+到处，教程就结束了，🔥。</description>
     </item>
     
     <item>
