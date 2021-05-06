@@ -24,7 +24,7 @@
   在弹出标签页中选择 Custom firmware file ..选项；
   点击“OK”按钮；
   此时会弹出Windows的文件选择界面，选择*.px4文件，并点击“打开”按钮，此时地面站会将固件上传并烧录到Pixhawk自驾仪中。
-  </description>
+    </description>
     </item>
     
     <item>
