@@ -3,7 +3,7 @@
 <html lang='en' dir='auto'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='创建飞行器模型 在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。
+<meta name='description' content='在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。
 1. 飞行器模型编辑器和格式 FlightGear支持超过12种3-D几何文件格式。 通常是AC3D格式，其后缀为 *.ac。AC3D是可从处购买的低成本几何编辑器 。
 2. 飞行器模型结构和要求 飞行器模型包含在文件夹和子文件夹中。完整的飞机模型必须包含通过名为的所需飞机主文件链接的文件夹。FlightGearRoot/data/Aircraft/model-set.xml
 所有其他模型元素都是可选的。这是您可以放置​​在飞机数据文件夹中的可选元素的部分列表：
@@ -21,13 +21,14 @@
   模型可以包含以上元素中的一些，全部或至不包含这些元素。如果始终从驾驶舱视图运行FlightGear，则飞机的几何形状通常仅次于仪表的几何形状。
 FlightGear文档中包含有关如何包含可选元素的操作方法文档。
 3. 所需的飞行动力学模型规格 飞行动力学模型（FDM）规范是飞机模型的必需元素。要将Simulink软件设置为给定几何模型的飞行动力学模型数据流的源，请将此行放入：data/Aircraft/model/model-set.xml:
-&lt;flight-model&gt;network&lt;/flight-model&gt;4. 获取和修改现有的飞行器模型 同时，我们也可以通过参考现有FlightGear模型，声音和其他可选元素，快速地从头开始构建模型。此类模型提供了几何，动力学，乐器，视图和声音的示例。将一个aircraft文件夹复制到一个新名称，重命名model-set.xml文件，将其修改为network flight dynamics，然后将–aircraft标志设置为model-set.xml中的名称来运行FlightGear非常简单。
+&lt;flight-model&gt;network&lt;/flight-model&gt;
+4. 获取和修改现有的飞行器模型 同时，我们也可以通过参考现有FlightGear模型，声音和其他可选元素，快速地从头开始构建模型。此类模型提供了几何，动力学，乐器，视图和声音的示例。将一个aircraft文件夹复制到一个新名称，重命名model-set.xml文件，将其修改为network flight dynamics，然后将–aircraft标志设置为model-set.xml中的名称来运行FlightGear非常简单。
 使用飞行器几何模型 获取，修改或创建飞机数据文件后，需要将其放在正确的文件夹中，以供FlightGear访问。
 1. 将飞行器模型导入FlightGear   Windows 平台  转到已安装的FlightGear文件夹。打开data文件夹，然后打开文件Aircraft夹：\FlightGear\data\Aircraft\。 在model此处为您的飞机数据创建一个子文件夹。 将model-set.xml放入该子文件夹，以及所需的任何其他文件。通常的做法是为模型几何文件（\model\）、仪器（\instruments\）和声音（\sounds\）创建子目录。    使用Simulink模型运行FlightGear 要运行飞行器的Simulink模型并同时使用飞机数据文件model-set.'>
 <meta name='theme-color' content='#3E3A40'>
 
 <meta property='og:title' content='关于 Flight Gear Simulater • Calvert Lee'>
-<meta property='og:description' content='创建飞行器模型 在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。
+<meta property='og:description' content='在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。
 1. 飞行器模型编辑器和格式 FlightGear支持超过12种3-D几何文件格式。 通常是AC3D格式，其后缀为 *.ac。AC3D是可从处购买的低成本几何编辑器 。
 2. 飞行器模型结构和要求 飞行器模型包含在文件夹和子文件夹中。完整的飞机模型必须包含通过名为的所需飞机主文件链接的文件夹。FlightGearRoot/data/Aircraft/model-set.xml
 所有其他模型元素都是可选的。这是您可以放置​​在飞机数据文件夹中的可选元素的部分列表：
@@ -45,7 +46,8 @@ FlightGear文档中包含有关如何包含可选元素的操作方法文档。
   模型可以包含以上元素中的一些，全部或至不包含这些元素。如果始终从驾驶舱视图运行FlightGear，则飞机的几何形状通常仅次于仪表的几何形状。
 FlightGear文档中包含有关如何包含可选元素的操作方法文档。
 3. 所需的飞行动力学模型规格 飞行动力学模型（FDM）规范是飞机模型的必需元素。要将Simulink软件设置为给定几何模型的飞行动力学模型数据流的源，请将此行放入：data/Aircraft/model/model-set.xml:
-&lt;flight-model&gt;network&lt;/flight-model&gt;4. 获取和修改现有的飞行器模型 同时，我们也可以通过参考现有FlightGear模型，声音和其他可选元素，快速地从头开始构建模型。此类模型提供了几何，动力学，乐器，视图和声音的示例。将一个aircraft文件夹复制到一个新名称，重命名model-set.xml文件，将其修改为network flight dynamics，然后将–aircraft标志设置为model-set.xml中的名称来运行FlightGear非常简单。
+&lt;flight-model&gt;network&lt;/flight-model&gt;
+4. 获取和修改现有的飞行器模型 同时，我们也可以通过参考现有FlightGear模型，声音和其他可选元素，快速地从头开始构建模型。此类模型提供了几何，动力学，乐器，视图和声音的示例。将一个aircraft文件夹复制到一个新名称，重命名model-set.xml文件，将其修改为network flight dynamics，然后将–aircraft标志设置为model-set.xml中的名称来运行FlightGear非常简单。
 使用飞行器几何模型 获取，修改或创建飞机数据文件后，需要将其放在正确的文件夹中，以供FlightGear访问。
 1. 将飞行器模型导入FlightGear   Windows 平台  转到已安装的FlightGear文件夹。打开data文件夹，然后打开文件Aircraft夹：\FlightGear\data\Aircraft\。 在model此处为您的飞机数据创建一个子文件夹。 将model-set.xml放入该子文件夹，以及所需的任何其他文件。通常的做法是为模型几何文件（\model\）、仪器（\instruments\）和声音（\sounds\）创建子目录。    使用Simulink模型运行FlightGear 要运行飞行器的Simulink模型并同时使用飞机数据文件model-set.'>
 <meta property='og:url' content='http://calvertlee.top/matlab/%E5%85%B3%E4%BA%8E-flightgear-simulater/'>
@@ -228,8 +230,7 @@ One min read
   
 
   <div class='container entry-content'>
-  <h2 id="创建飞行器模型">创建飞行器模型</h2>
-<p>在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。</p>
+  <p>在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。</p>
 <h3 id="1-飞行器模型编辑器和格式">1. 飞行器模型编辑器和格式</h3>
 <p>FlightGear支持超过12种3-D几何文件格式。
 通常是AC3D格式，其后缀为 <code>*.ac</code>。<a href="https://www.ac3d.org">AC3D</a>是可从处购买的低成本几何编辑器 。</p>
@@ -273,8 +274,8 @@ One min read
 <p>FlightGear文档中包含有关如何包含可选元素的操作方法<a href="http://wiki.flightgear.org/Howto:3D_Aircraft_Models">文档</a>。</p>
 <h3 id="3-所需的飞行动力学模型规格">3. 所需的飞行动力学模型规格</h3>
 <p>飞行动力学模型（FDM）规范是飞机模型的必需元素。要将Simulink软件设置为给定几何模型的飞行动力学模型数据流的源，请将此行放入：<code>data/Aircraft/model/model-set.xml</code>:</p>
-<pre><code>&lt;flight-model&gt;network&lt;/flight-model&gt;
-</code></pre><h3 id="4-获取和修改现有的飞行器模型">4. 获取和修改现有的飞行器模型</h3>
+<p><code>&lt;flight-model&gt;network&lt;/flight-model&gt;</code></p>
+<h3 id="4-获取和修改现有的飞行器模型">4. 获取和修改现有的飞行器模型</h3>
 <p>同时，我们也可以通过参考现有FlightGear模型，声音和其他可选元素，快速地从头开始构建模型。此类模型提供了几何，动力学，乐器，视图和声音的示例。将一个aircraft文件夹复制到一个新名称，重命名<code>model-set.xml</code>文件，将其修改为network flight dynamics，然后将–aircraft标志设置为<code>model-set.xml</code>中的名称来运行FlightGear非常简单。</p>
 <h2 id="使用飞行器几何模型">使用飞行器几何模型</h2>
 <p>获取，修改或创建飞机数据文件后，需要将其放在正确的文件夹中，以供FlightGear访问。</p>
