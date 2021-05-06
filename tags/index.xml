@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
-    <lastBuildDate>Wed, 03 Mar 2021 08:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 05 May 2021 18:30:00 +0600</lastBuildDate>
     
 	<atom:link href="http://calvertlee.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Matlab</title>
       <link>http://calvertlee.top/tags/matlab/</link>
-      <pubDate>Wed, 03 Mar 2021 08:00:00 +0600</pubDate>
+      <pubDate>Wed, 05 May 2021 18:30:00 +0600</pubDate>
       
       <guid>http://calvertlee.top/tags/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Others</title>
+      <link>http://calvertlee.top/tags/others/</link>
+      <pubDate>Wed, 05 May 2021 18:30:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/tags/others/</guid>
       <description></description>
     </item>
     

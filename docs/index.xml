@@ -6,10 +6,26 @@
     <description>Recent content in Documentation on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
-    <lastBuildDate>Sun, 14 Mar 2021 08:00:00 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 05 May 2021 18:30:00 +0600</lastBuildDate>
     
 	<atom:link href="http://calvertlee.top/docs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>QGC地面站下载PX4自驾仪自定义固件版本方法</title>
+      <link>http://calvertlee.top/docs/qgc%E5%9C%B0%E9%9D%A2%E7%AB%99%E4%B8%8B%E8%BD%BDpx4%E8%87%AA%E9%A9%BE%E4%BB%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BA%E4%BB%B6%E7%89%88%E6%9C%AC%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Wed, 05 May 2021 18:30:00 +0600</pubDate>
+      
+      <guid>http://calvertlee.top/docs/qgc%E5%9C%B0%E9%9D%A2%E7%AB%99%E4%B8%8B%E8%BD%BDpx4%E8%87%AA%E9%A9%BE%E4%BB%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BA%E4%BB%B6%E7%89%88%E6%9C%AC%E6%96%B9%E6%B3%95/</guid>
+      <description>打开“QGroundControl”软件并进行下列 操作：
+  点击设置按钮(齿轮形状)；
+  点击“Firmware”标签，此时用USB 数据线连接Pixhawk自驾仪，地面站会自 动检测自驾仪；
+  勾选“advanced settings”选择框；
+  在弹出标签页中选择 Custom firmware file ..选项；
+  点击“OK”按钮；
+  此时会弹出Windows的文件选择界面，选择*.px4文件，并点击“打开”按钮，此时地面站会将固件上传并烧录到Pixhawk自驾仪中。
+  </description>
+    </item>
     
     <item>
       <title>vs2019 转换Qt Creator 详细讲解</title>
