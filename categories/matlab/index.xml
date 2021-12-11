@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matlab on Calvert‘s Website</title>
-    <link>http://calvertlee.top/categories/matlab/</link>
+    <link>/categories/matlab/</link>
     <description>Recent content in Matlab on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
     <lastBuildDate>Wed, 05 May 2021 18:30:00 +0600</lastBuildDate>
     
-	<atom:link href="http://calvertlee.top/categories/matlab/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/matlab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>创建一个FlightGear运行脚本</title>
-      <link>http://calvertlee.top/matlab/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAflightgear%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/</link>
+      <link>/matlab/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAflightgear%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/</link>
       <pubDate>Wed, 05 May 2021 18:30:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/matlab/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAflightgear%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/</guid>
+      <guid>/matlab/%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAflightgear%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC/</guid>
       <description>要以所需的初始条件（位置，日期，时间，天气，操作模式）启动FlightGear，最好通过使用Generate Run Script Block或使用FlightGear随附的界面来创建运行脚本。
 如果要为要链接到FlightGear的每个模型制作单独的运行脚本，然后将它们放置在单独的目录中，请在启动Simulink模型之前从MATLAB界面运行相应的脚本。
 1. 使用Generate Run Script Block 创建运行脚本   打开飞行模拟器接口子库。
@@ -35,10 +35,10 @@ Win--*.bat Linux,Mac--*.sh
     
     <item>
       <title>关于 Flight Gear Simulater</title>
-      <link>http://calvertlee.top/matlab/%E5%85%B3%E4%BA%8E-flightgear-simulater/</link>
+      <link>/matlab/%E5%85%B3%E4%BA%8E-flightgear-simulater/</link>
       <pubDate>Fri, 30 Apr 2021 18:30:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/matlab/%E5%85%B3%E4%BA%8E-flightgear-simulater/</guid>
+      <guid>/matlab/%E5%85%B3%E4%BA%8E-flightgear-simulater/</guid>
       <description>在可视化飞行器虚拟仿真之前，需要创建或获取与FlightGear兼容的飞机模型文件。本节说明如何执行此操作。
 1. 飞行器模型编辑器和格式 FlightGear支持超过12种3-D几何文件格式。 通常是AC3D格式，其后缀为 *.ac。AC3D是可从处购买的低成本几何编辑器 。
 2. 飞行器模型结构和要求 飞行器模型包含在文件夹和子文件夹中。完整的飞机模型必须包含通过名为的所需飞机主文件链接的文件夹。FlightGearRoot/data/Aircraft/model-set.xml
@@ -65,10 +65,10 @@ FlightGear文档中包含有关如何包含可选元素的操作方法文档。
     
     <item>
       <title>将inf和nan替换为其他变量</title>
-      <link>http://calvertlee.top/matlab/%E5%B0%86inf%E5%92%8Cnan%E6%9B%BF%E6%8D%A2%E4%B8%BA%E5%8F%98%E9%87%8F/</link>
+      <link>/matlab/%E5%B0%86inf%E5%92%8Cnan%E6%9B%BF%E6%8D%A2%E4%B8%BA%E5%8F%98%E9%87%8F/</link>
       <pubDate>Wed, 03 Mar 2021 08:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/matlab/%E5%B0%86inf%E5%92%8Cnan%E6%9B%BF%E6%8D%A2%E4%B8%BA%E5%8F%98%E9%87%8F/</guid>
+      <guid>/matlab/%E5%B0%86inf%E5%92%8Cnan%E6%9B%BF%E6%8D%A2%E4%B8%BA%E5%8F%98%E9%87%8F/</guid>
       <description>在单个变量中，可用if判断语句
 Ta = NaN; tfa = isnan(Ta); if (tfa == 1) Ta = 0; end %----------------分割线--------------% Tb = Inf; tfb = isinf(Tb); if (tfb == 1) Tb = 0; end 在矩阵变量中，可用如下方式进行替换
 a = 1 NaN 2 3 &amp;gt;&amp;gt; a(isnan(a)) = 123 a = 1 123 2 3 &amp;gt;&amp;gt; a = [1 inf 2 3] a = 1 Inf 2 3 &amp;gt;&amp;gt; a(a == inf) = 123 a = 1 123 2 3 </description>

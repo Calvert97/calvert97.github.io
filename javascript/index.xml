@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on Calvert‘s Website</title>
-    <link>http://calvertlee.top/javascript/</link>
+    <link>/javascript/</link>
     <description>Recent content in JavaScript on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
     
-	<atom:link href="http://calvertlee.top/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

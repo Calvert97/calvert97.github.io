@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation on Calvert‘s Website</title>
-    <link>http://calvertlee.top/docs/</link>
+    <link>/docs/</link>
     <description>Recent content in Documentation on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
     <lastBuildDate>Wed, 05 May 2021 18:30:00 +0600</lastBuildDate>
     
-	<atom:link href="http://calvertlee.top/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>QGC地面站下载PX4自驾仪自定义固件版本方法</title>
-      <link>http://calvertlee.top/docs/qgc%E5%9C%B0%E9%9D%A2%E7%AB%99%E4%B8%8B%E8%BD%BDpx4%E8%87%AA%E9%A9%BE%E4%BB%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BA%E4%BB%B6%E7%89%88%E6%9C%AC%E6%96%B9%E6%B3%95/</link>
+      <link>/docs/qgc%E5%9C%B0%E9%9D%A2%E7%AB%99%E4%B8%8B%E8%BD%BDpx4%E8%87%AA%E9%A9%BE%E4%BB%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BA%E4%BB%B6%E7%89%88%E6%9C%AC%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 05 May 2021 18:30:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/docs/qgc%E5%9C%B0%E9%9D%A2%E7%AB%99%E4%B8%8B%E8%BD%BDpx4%E8%87%AA%E9%A9%BE%E4%BB%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BA%E4%BB%B6%E7%89%88%E6%9C%AC%E6%96%B9%E6%B3%95/</guid>
+      <guid>/docs/qgc%E5%9C%B0%E9%9D%A2%E7%AB%99%E4%B8%8B%E8%BD%BDpx4%E8%87%AA%E9%A9%BE%E4%BB%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BA%E4%BB%B6%E7%89%88%E6%9C%AC%E6%96%B9%E6%B3%95/</guid>
       <description>打开“QGroundControl”软件并进行下列 操作：
   点击设置按钮(齿轮形状)；
   点击“Firmware”标签，此时用USB 数据线连接Pixhawk自驾仪，地面站会自 动检测自驾仪；
@@ -29,10 +29,10 @@
     
     <item>
       <title>vs2019 转换Qt Creator 详细讲解</title>
-      <link>http://calvertlee.top/docs/vs2019-%E8%BD%AC%E6%8D%A2qt-creator-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3/</link>
+      <link>/docs/vs2019-%E8%BD%AC%E6%8D%A2qt-creator-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3/</link>
       <pubDate>Sun, 14 Mar 2021 08:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/docs/vs2019-%E8%BD%AC%E6%8D%A2qt-creator-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3/</guid>
+      <guid>/docs/vs2019-%E8%BD%AC%E6%8D%A2qt-creator-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3/</guid>
       <description>1. 在新建项目中 输入QT，(前提是你已经装上了 QT VS TOOLS 扩展) 2. 创建完项目，选择相关依赖的库 3. 右键项目创建pro或在扩展里找到创建pro 创建的时候选择默认选项
 此时，生成了两个文件xxx.pro和xxx.pri
 4. 在pro文件里加依赖库QT += core gui sql widgets，如图 5. 注释如图的消息宏：message(&amp;quot;You are running qmake on a generated .pro file. This may not work!&amp;quot;) 6. 在QT Creator里构建运行 至此，教程结束，🎉</description>
@@ -40,10 +40,10 @@
     
     <item>
       <title>Visual Studio 2019配置Qt5开发环境的搭建</title>
-      <link>http://calvertlee.top/docs/visual-studio-2019%E9%85%8D%E7%BD%AEqt5%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</link>
+      <link>/docs/visual-studio-2019%E9%85%8D%E7%BD%AEqt5%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</link>
       <pubDate>Sun, 14 Mar 2021 06:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/docs/visual-studio-2019%E9%85%8D%E7%BD%AEqt5%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</guid>
+      <guid>/docs/visual-studio-2019%E9%85%8D%E7%BD%AEqt5%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</guid>
       <description>1. Qt 5 安装 建议在清华大学开源软件镜像站 Tuna 中下载 ，点击下载 。 下载完成，安装时安装到英文路径下即可。
 2. 在Visual Studio 2019中下载Qt VS Tools插件 打开 Visual Studio 2019，在扩展-&amp;gt;管理扩展-&amp;gt;联机-&amp;gt;搜索 qt ，然后下载（注意：下载速度较慢，需要借助科学上网🎉）。下载完毕后关闭 VS ，此时弹出安装界面，选择安装即可。
 若出现下图的情况，点击End Task。
@@ -58,10 +58,10 @@
     
     <item>
       <title>Shortcodes</title>
-      <link>http://calvertlee.top/docs/shortcodes/</link>
+      <link>/docs/shortcodes/</link>
       <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/docs/shortcodes/</guid>
+      <guid>/docs/shortcodes/</guid>
       <description>Minimo comes with several shortcodes built-in.
  Shortcode: center Center align you content.
 center: Parameters  Markdown content between opening and closing tags.  center: Usage Example {{&amp;lt; center &amp;gt;}} _Center Aligned Text_ {{&amp;lt; /center &amp;gt;}} Output:
@@ -71,10 +71,10 @@ convo: Parameters  sep [String] (optional): seperator between person and text (d
     
     <item>
       <title>Widgets</title>
-      <link>http://calvertlee.top/docs/widgets/</link>
+      <link>/docs/widgets/</link>
       <pubDate>Tue, 15 Dec 2020 06:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/docs/widgets/</guid>
+      <guid>/docs/widgets/</guid>
       <description>Minimo supports Widgets that you can place on specific Widget Areas.
 Available Widgets Minimo has the following built-in Widgets:
    Name Slug     About | about Breadcrumbs | breadcrumbs Recent Posts | recent_posts Search | search Sidebar Menu | sidebar_menu Social Menu | social_menu Taxonomy Cloud | taxonomy_cloud  Widget Configuration Options Here are the configuration options available for the Widgets:
@@ -83,10 +83,10 @@ Widget: About  about [Map]:  title [String]: Title</description>
     
     <item>
       <title>Emoji Support</title>
-      <link>http://calvertlee.top/docs/emoji-support/</link>
+      <link>/docs/emoji-support/</link>
       <pubDate>Sat, 12 Dec 2020 06:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/docs/emoji-support/</guid>
+      <guid>/docs/emoji-support/</guid>
       <description>首先，如果你想用 emojis 表情, 需要在config.toml 文件中，将 enableEmoji 设置为 true ：
 enableEmoji = true 这将使Hugo能够在您的内容文件中找到Emoji缩略词，并将它们呈现为Unicode Emoji Characters。
 例如:🔥

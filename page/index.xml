@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Calvert‘s Website</title>
-    <link>http://calvertlee.top/page/</link>
+    <link>/page/</link>
     <description>Recent content in Pages on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
     <lastBuildDate>Fri, 24 Jul 2020 08:00:00 +0600</lastBuildDate>
     
-	<atom:link href="http://calvertlee.top/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub</title>
-      <link>http://calvertlee.top/github/</link>
+      <link>/github/</link>
       <pubDate>Fri, 24 Jul 2020 08:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/github/</guid>
+      <guid>/github/</guid>
       <description>test </description>
     </item>
     
     <item>
       <title>Album</title>
-      <link>http://calvertlee.top/album/</link>
+      <link>/album/</link>
       <pubDate>Fri, 24 Jul 2020 08:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/album/</guid>
+      <guid>/album/</guid>
       <description>test </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://calvertlee.top/about/</link>
+      <link>/about/</link>
       <pubDate>Fri, 24 Jul 2020 08:00:00 +0600</pubDate>
       
-      <guid>http://calvertlee.top/about/</guid>
+      <guid>/about/</guid>
       <description>Hi, I&amp;rsquo;m Calvert Lee, a front-End development of primary school students from China.
  🔭 I’m currently working on [Quadrotor Trajectory Tracking with FO-SMC] 🌱 I’m currently learning JavaScript 👯 I’m looking to collaborate on [Control Theory of Quadrotor] 💬 Ask me about anything here  Next, please accept my charm unconditionally 😎
   Hahaha~Have you been moved by my appearance 😌
@@ -43,10 +43,10 @@ I am a graduate student in Inner Mongolia University.</description>
     
     <item>
       <title>Search</title>
-      <link>http://calvertlee.top/search/</link>
+      <link>/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://calvertlee.top/search/</guid>
+      <guid>/search/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>css&#43;html on Calvert‘s Website</title>
-    <link>http://calvertlee.top/categories/css&#43;html/</link>
+    <link>/categories/css&#43;html/</link>
     <description>Recent content in css&#43;html on Calvert‘s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2020-2021 Calvert Lee</copyright>
     <lastBuildDate>Wed, 22 Jan 2020 19:03:00 +0000</lastBuildDate>
     
-	<atom:link href="http://calvertlee.top/categories/css+html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/css+html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>溢出的文字省略号显示</title>
-      <link>http://calvertlee.top/html&#43;css/%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/</link>
+      <link>/html&#43;css/%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/</link>
       <pubDate>Wed, 22 Jan 2020 19:03:00 +0000</pubDate>
       
-      <guid>http://calvertlee.top/html&#43;css/%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/</guid>
+      <guid>/html&#43;css/%E6%BA%A2%E5%87%BA%E7%9A%84%E6%96%87%E5%AD%97%E7%9C%81%E7%95%A5%E5%8F%B7%E6%98%BE%E7%A4%BA/</guid>
       <description>溢出的文字省略号显示 1. 单行文本溢出显示省略号 /* 1. 先强制一行内显示文本*/ white-space: nowrap; (默认 normal 自动换行) /* 2. 超出的部分隐藏*/ overflow: hidden; /* 3. 文字用省略号替代超出的部分*/ text-overflow: ellipsis; 2. 多行文本溢出显示省略号 多行文本溢出显示省略号，有较大兼容性问题，适合webKit浏览器或移动端
 overflow: hidden; text-overflow: ellipsis; /* 弹性伸缩盒子模型显示*/ display: -webkit-box; /* 限制在一个块级元素显示的文本的行数*/ -webkit-line-clamp: 2; /* 设置或检索伸缩盒对象的子元素的排列方式*/ -webkit-box-orient: vertical; </description>
     </item>
